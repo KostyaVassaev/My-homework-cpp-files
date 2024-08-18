@@ -1,0 +1,8 @@
+name: myFirstWorkflow
+on: push
+jobs:
+  namejobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo Something message
